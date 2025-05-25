@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Welcome, Migga 💜</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+
+  <main class="container">
+    <h1>Welcome, Migga 💜</h1>
+    <p class="subtitle">This little space is made with love, just for you.</p>
+
+    <div class="poem fade-in">
+      <p>In every star that lights the night,</p>
+      <p>Your smile is the softest light.</p>
+      <p>In every breath, in every dream,</p>
+      <p>You are my endless gentle stream.</p>
+      <p>Through every code, in every line,</p>
+      <p>My heart in quiet beats for thine.</p>
+      <p>This world we build, this path we take,</p>
+      <p>Is ours alone — no dreams to break.</p>
+    </div>
+
+    <button class="start-button" id="startBtn">Open Our World 🚀</button>
+  </main>
+
+  <section class="mission-panel" id="missionSection" style="display:none;">
+    <h2>🌟 A Special Message</h2>
+    <p>
+      Every moment with you inspires me to create, dream, and build something beautiful.
+      This site is a small token — a space where our journey is honored, and where love meets code.
+    </p>
+    <a href="/about" class="secondary-btn">Learn More About Us</a>
+  </section>
+
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
